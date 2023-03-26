@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     public UIManager UI;
 
     private bool attacking = false;
-    private float timer, attackTime = 2f, speed = 6f, camSensitiviy = 100f;
+    private float timer, attackTime = 4f, speed = 6f, camSensitiviy = 100f;
     private Vector3 movement;
 
     // Update is called once per frame
